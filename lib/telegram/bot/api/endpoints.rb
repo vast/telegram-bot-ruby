@@ -101,6 +101,7 @@ module Telegram
         'reopenGeneralForumTopic' => Types::Bool,
         'hideGeneralForumTopic' => Types::Bool,
         'unhideGeneralForumTopic' => Types::Bool,
+        'createForumTopic' => Types::ForumTopic,
         'unpinAllGeneralForumTopicMessages' => Types::Bool,
         'setMyName' => Types::Bool,
         'getMyName' => Types::BotName,
